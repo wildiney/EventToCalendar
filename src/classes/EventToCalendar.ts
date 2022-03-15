@@ -13,6 +13,11 @@ export default class EventToCalendar {
   }
 
   async copyURL (url: string) {
+    await console.log(' ')
+    await console.log('############### COPY THE LINK BELOW ###############')
+    await console.log(' ')
     await console.log(url)
+    await console.log(' ')
+    await console.log('###################################################')
   }
 }
